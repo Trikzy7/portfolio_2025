@@ -1,0 +1,224 @@
+
+
+
+    /* ------------------------------- ASIDE ------------------------------- */
+
+
+.container_icon_rect {
+    width: 100px;
+
+    margin-top: 25px;
+
+    cursor: pointer;
+
+    position: relative;
+}
+
+.container_icon_rect img {
+    width: 100%;
+}
+
+
+
+.quoteMark {
+    font-size: 25px;
+}
+
+.container_lorem {
+    width: 100%;
+
+    writing-mode: vertical-lr;
+
+    align-self: flex-start;
+
+    font-size: 12px;
+    font-weight: bold;
+
+    border-right: 2px solid #ffffff ;
+
+    position: relative;
+
+    /* background-color: indianred; */
+}
+
+.container_lorem p {
+    transform: rotate(180deg);
+}
+
+
+
+
+
+
+
+
+.container_scroll_prog {
+    width: 30px;
+    height: 30px;
+
+    position: relative;
+
+    /* background-color: red; */
+}
+
+.container_scroll_prog svg {
+    width: 100%;
+    height: 100%;
+
+    transform: rotate(270deg);
+
+    /* background-color: orange; */
+}
+
+.container_scroll_prog svg circle{
+
+    stroke-width: 4;
+    stroke: #ffffff;
+
+    stroke-dasharray: 60; 
+    stroke-dashoffset: 60;
+
+}
+
+
+
+    /* ------------------------------- FIN ASIDE ------------------------------- */
+
+
+
+
+
+.coordinate_container {
+    position: relative;
+}
+
+
+
+
+
+
+
+
+    /* ------------------------------- CONTENT MIDDLE ------------------------------- */
+        
+.content_home_middle {
+     /* margin-top: 140px; */
+
+     /* background-color: powderblue; */
+
+     position: relative;
+ 
+ }   
+
+ 
+.content_home_middle h1 {
+    display: flex;
+    flex-direction: column;
+
+    font-size: 85px;
+    font-weight: bold;
+}
+
+.content_home_middle h1 span {
+    position: relative;
+    /* left: -190px;
+    opacity: 0;
+
+    transition: .8s ease; */
+}
+
+.title_second_word {
+    -webkit-text-stroke: 1px #ffffff;
+    color: transparent;
+
+    font-weight: normal;
+
+}
+        
+        
+    /* ------------------------------- FIN CONTENT MIDDLE ------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+    /* ------------------------------- CONTENT BOTTOM ------------------------------- */
+
+.content_home_bottom {
+    display: flex;
+    justify-content: space-between;
+
+    position: relative;
+    color: unset;
+
+    margin-right: 30px;
+
+    /* background-color: tomato; */
+}
+
+.bottom_info {
+    align-self: flex-end;
+}
+
+.bottom_info h2{
+    font-size: 18px;
+    font-weight: normal;
+}
+
+
+.bottom_icon_scroll {
+    width: 90px;
+}
+
+.bottom_icon_scroll img {
+    width: 100%;
+    display: block;
+}
+
+    /* ------------------------------- FIN CONTENT BOTTOM ------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1065px) {
+    .content_home_middle h1 {
+        font-size: 65px;
+    }
+
+    .bottom_icon_scroll {
+        width: 75px;
+    }
+}
+
+@media screen and (max-width: 765px) {
+
+    .content_home_middle h1 {
+        font-size: 45px;
+    }
+
+    .bottom_icon_scroll {
+        width: 60px;
+    }
+}

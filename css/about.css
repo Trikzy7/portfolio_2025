@@ -1,0 +1,1057 @@
+@import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap');
+
+
+
+
+    /* ------------------------------- ASIDE ------------------------------- */
+
+.container_title_about {
+    z-index: 10;
+
+    position: relative;
+
+    /* background-color: red; */
+
+}
+
+.about_aside_title {
+
+    display: flex;
+    justify-content: flex-end;
+
+    font-size: 90px;
+
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+
+    align-self: flex-start;
+
+
+    margin-bottom: -3px;
+}
+
+
+
+.about_aside_title_me {
+    font-size: 70px;
+
+    -webkit-text-stroke: 1px #ffffff;
+    color: transparent;
+
+    margin-top: 18px;
+
+    font-weight: normal;
+}
+
+
+    /* ------------------------------- FIN ASIDE ------------------------------- */
+
+
+
+
+
+
+
+
+
+    /* ------------------------------- CONTENT ------------------------------- */
+
+
+
+.about_content {
+    width: 100%;
+    height: 100%;
+
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    
+    overflow-y: hidden;
+    scrollbar-width: none;
+
+    position: relative;
+
+    
+    /* font-family: 'La Belle Aurore', cursive; */
+    /* color: #707070; */
+    font-size: 12px;
+
+
+
+    /* background-color: orange; */
+
+
+}
+
+.about_content::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+
+
+
+        /* ------------------------------- CONTENT TOP ------------------------------- */
+.about_content_top {
+    width: 100%;
+    height: 90%;
+
+    scroll-snap-type: x mandatory;
+    overflow-x: scroll; 
+    
+
+    display: flex;
+
+    scrollbar-width: none;
+
+
+    /* background-color: blue; */
+}
+
+
+.about_content_top::-webkit-scrollbar {
+    display: none;
+} 
+
+
+            /* ------------------------------- SLIDE GENERAL ------------------------------- */
+
+
+.about_slide {
+    flex: none;
+
+    width: 100%;
+    height: 100%;
+
+    padding-left: 50px;
+    padding-top: 25px;
+    padding-right: 50px;
+
+
+
+    transform: scale(0.8);
+
+
+    transition: 0.7s;
+
+    background-color: rgba(0, 0, 0, 0.1);
+
+
+    color: #ffffff;
+}
+
+
+
+
+/* .one {
+    background-color: brown;
+} 
+.two {
+    background-color: #ffbe76;
+
+} 
+.three {
+    background-color: #badc58;
+} 
+.four {
+    background-color: #30336b;
+}  */
+
+
+
+
+            /* ------------------------------- FIN SLIDE GENERAL ------------------------------- */
+
+
+
+
+
+
+
+            /* ------------------------------- SLIDE THEO ------------------------------- */
+
+.slide_me {
+    padding-left: 50px;
+    padding-top: 25px;
+    padding-right: 50px;
+}
+
+.slide1_big_title {
+    font-size: 90px;
+
+    margin-bottom: 75px;
+
+    position: relative;
+}
+
+.slide1_big_title::before, .slide1_big_title::after {
+    position: absolute;
+    left: -5px;
+
+    font-size: 23px;
+    font-family: 'La Belle Aurore', cursive;
+    color: #707070;
+    font-weight: normal;
+}
+
+.slide1_big_title::before {
+    content: '<h1>';
+
+    top: -20px;
+}
+
+.slide1_big_title::after {
+    content: '</h1>';
+
+    bottom: -30px;
+}
+
+
+
+
+
+
+.container_txt_img_slide1 {
+    /* background-color: rebeccapurple; */
+
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.container_txt_img_slide1::before, .container_txt_img_slide1::after {
+
+    position: absolute;
+    left: -5px;
+
+    font-size: 23px;
+    font-family: 'La Belle Aurore', cursive;
+    color: #707070;
+}
+
+.container_txt_img_slide1::before {
+    content: '<p>';
+
+    top: -40px;
+}
+
+.container_txt_img_slide1::after {
+    content: '</p>';
+
+    bottom: -40px;
+}
+
+
+.txt_slide1 {
+    font-size: 18px;
+    margin-right: 75px;
+    text-align: justify;
+}
+
+ 
+
+.img_slide1 {
+    width: 15%;
+}
+
+
+
+
+            /* ------------------------------- FIN SLIDE THEO ------------------------------- */
+
+
+
+
+            /* ------------------------------- SLIDE EXPERIENCE & QUALIFICATION ------------------------------- */
+
+.slide_diploma {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    padding-top: 100px;
+
+}
+
+.slide_title {
+    font-size: 35px;
+
+    margin-bottom: 75px;
+    position: relative;
+}
+
+
+.slide_title::before, .slide_title::after {
+    position: absolute;
+    left: -5px;
+
+    font-size: 23px;
+    font-family: 'La Belle Aurore', cursive;
+    color: #707070;
+    font-weight: normal;
+}
+
+.slide_title::before {
+    content: '<h2>';
+
+    top: -25px;
+}
+
+.slide_title::after {
+    content: '</h2>';
+
+    bottom: -35px;
+}
+
+
+                /* ------------------------------- CONTAINER EDUCATION ------------------------------- */
+.container_all_education {
+
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    position: relative;
+
+    /* background-color: thistle; */
+}
+
+
+.container_all_education::before, .container_all_education::after {
+    position: absolute;
+    left: -5px;
+
+    font-size: 23px;
+    font-family: 'La Belle Aurore', cursive;
+    color: #707070;
+    font-weight: normal;
+}
+
+.container_all_education::before {
+    content: '<p>';
+
+    top: -40px;
+}
+
+.container_all_education::after {
+    content: '</p>';
+
+    bottom: -40px;
+}
+
+
+
+.container_education {
+    display: flex;
+
+    width: 49%;
+    /* min-width: 300px; */
+
+    /* background-color: turquoise; */
+}
+
+
+.education_date {
+    font-size: 18px;
+    font-weight: bold;
+
+    /* min-width: 120px; */
+
+    /* background-color: yellowgreen; */
+}
+
+.container_education_info {
+    margin-left: 20px;
+}
+.education_diploma {
+    font-size: 18px;
+    font-weight: bold;
+}
+.education_location {
+    font-size: 16px;
+}
+.education_descr {
+    margin-top: 5px;
+    font-size: 12px;
+}
+
+
+
+            /* ------------------------------- SLIDE EXPERIENCE & QUALIFICATION ------------------------------- */
+
+
+
+
+
+
+
+
+            /* ------------------------------- SLIDE SKILLS ------------------------------- */
+
+
+.container_skills_content {
+
+    width: 80%;
+
+    margin: 0 auto;
+
+    position: relative;
+    /* background-color: turquoise; */
+}
+
+
+.container_skills_content::before, .container_skills_content::after {
+    position: absolute;
+    left: -5px;
+
+    font-size: 23px;
+    font-family: 'La Belle Aurore', cursive;
+    color: #707070;
+    font-weight: normal;
+}
+
+.container_skills_content::before {
+    content: '<p>';
+
+    top: -40px;
+}
+
+.container_skills_content::after {
+    content: '</p>';
+
+    bottom: -40px;
+}
+
+
+
+
+.slide_sub_title {
+    font-size: 23px;
+    margin-top: 50px;
+}
+
+
+.one_skill {
+
+    width: 60%;
+
+    margin: 5px auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: violet; */
+}
+
+.one_skill_type {
+    font-size: 14px;
+}
+
+.container_bar {
+    width: 75%;
+    height: 4px;
+
+    background-color: #777575;
+}
+
+.bar_fill {
+    height: 100%;
+
+    background-color: #f1f1f1 ;
+}
+
+
+
+
+
+
+
+            /* ------------------------------- FIN SLIDE SKILLS ------------------------------- */
+
+
+
+
+
+
+            /* ------------------------------- SLIDE SKILLS AGAIN ------------------------------- */
+.title_skills_again_second_part {
+    font-size: 18px;
+}
+
+.bar_fill_french {
+    width: 100%;
+}
+
+.bar_fill_english {
+    width: 65%;
+}
+
+
+
+.one_personal_txt {
+
+    font-size: 18px;
+}
+
+
+
+            /* ------------------------------- FIN SLIDE SKILLS AGAIN ------------------------------- */
+
+
+
+
+
+
+            /* ------------------------------- SLIDE REFERENCE ------------------------------- */
+
+
+.slide_references {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+
+.container_all_references {
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    position: relative;
+    
+    width: 75%;
+}
+
+.container_all_references::before, .container_all_references::after {
+    position: absolute;
+    left: -5px;
+
+    font-size: 23px;
+    font-family: 'La Belle Aurore', cursive;
+    color: #707070;
+    font-weight: normal;
+}
+
+.container_all_references::before {
+    content: '<p>';
+
+    top: -40px;
+}
+
+.container_all_references::after {
+    content: '</p>';
+
+    bottom: -40px;
+}
+
+.container_reference {
+    display: flex;
+
+    width: 49%;
+
+    min-width: 300px;
+
+    margin-bottom: 25px;
+}
+
+.reference_name {
+    font-size: 20px;
+    font-weight: bold;
+    min-width: 100px;
+}
+
+
+.container_reference_info {
+    margin-left: 20px;
+}
+
+.reference_type, .reference_location, .reference_mail {
+    font-size: 16px;
+}
+
+
+
+
+.link_cv {
+    margin-top: 90px;
+    margin-bottom: 50px;
+
+    font-weight: bold;
+
+    align-self: center;
+
+    text-decoration: none;
+    color: #ffffff;
+
+
+    padding: 50px 40px;
+
+    border-radius: 50%;
+
+    border: 1px solid #ffffff;
+
+    transition: .4s ease;
+
+}
+
+.link_cv:hover {
+    background-color: #ffffff;
+    color: #333333;
+}
+
+
+            /* ------------------------------- FIN SLIDE REFERENCE ------------------------------- */
+
+
+
+
+
+
+            /* ------------------------------- SLIDE ACTIVE ------------------------------- */
+
+.aboutSlideActive {
+    /* background-color: red; */
+    margin: 0;
+
+    transform: scale(1);
+}
+
+
+            /* ------------------------------- FIN SLIDE ACTIVE ------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+        /* ------------------------------- FIN CONTENT TOP ------------------------------- */
+
+
+
+        /* ------------------------------- CONTENT BOTTOM ------------------------------- */
+
+.about_content_bottom {
+    width: 100%;
+    height: 10%;
+    
+    display: flex; 
+    justify-content: center;
+    align-items: flex-end;
+
+    position: relative;
+
+    /* background-color: fuchsia; */
+}
+
+
+            /* ------------------------------- CONTACT ------------------------------- */
+.about_contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-wrap: wrap;
+
+    margin-left: -150px;
+
+    /* background-color: red; */
+}
+
+.contact_element {
+    font-size: 17px;
+    margin-left: 25px;
+
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.contact_element:first-child {
+    margin-left: 0;
+}
+            /* ------------------------------- FIN CONTACT ------------------------------- */
+
+
+
+            /* ------------------------------- SCROLL TXT ------------------------------- */
+
+.txt_scroll_right {
+    position: absolute;
+    top: 40%;
+    right: 45px;
+
+    transform: translateY(-50%);
+
+    font-size: 15px;
+}
+            /* ------------------------------- FIN SCROLL TXT ------------------------------- */
+
+
+
+        /* ------------------------------- FIN CONTENT BOTTOM ------------------------------- */
+
+
+
+
+    /* ------------------------------- FIN CONTENT ------------------------------- */
+
+
+
+
+@media screen and (min-width: 1700px) {
+    
+    .slide_diploma {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        padding-top: 0;
+
+    }
+}
+
+
+
+@media screen and (max-width: 1275px)  {
+    .slide1_big_title {
+        font-size: 75px;
+    
+    }
+}
+
+
+@media screen and (max-width: 1215px) {
+    .about_content {
+        height: unset;
+        margin-bottom: 0;
+
+        overflow-y: scroll;
+    
+    }
+
+    .about_content_top {
+        width: 100%;
+        height: unset;
+    
+    
+        display: flex;
+        flex-direction: column;
+
+        padding-right: 30px;
+    }
+
+    .about_slide {
+        width: 100%;
+     
+        padding-left: 5px ;
+        padding-right: 5px ;
+        padding-bottom: 35px;
+    
+
+    
+        transform: scale(1);
+    
+        background-color: transparent;
+
+        margin-bottom: 25px;
+
+    }
+
+    .slide_diploma {
+        padding-top: 100px;
+    }
+
+
+
+
+    .slide_skills {
+        padding-top: 100px;
+    }
+
+    
+    .container_skills_content {
+        width: 100%;
+    
+    }
+
+
+    
+    
+    .one_skill {
+    
+        width: 90%;
+    
+        margin: 5px auto;
+    
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .one_skill_type {
+        font-size: 14px;
+    }
+
+
+
+    .one_skill_personnal {
+        justify-content: center !important;
+    }
+
+
+
+
+
+
+    .slide_skills_again {
+        padding-top: 100px;
+    }
+
+
+
+
+    .slide_references {
+        padding-top: 100px;
+    }
+    .link_cv {
+        margin-top: 65px;
+        margin-bottom: 0;
+    
+    
+        padding: 50px 40px;
+    
+    
+    }
+
+
+
+    .about_content_bottom {
+        padding-right: 30px;
+        margin-top: 75px;
+    }
+
+    .about_contact {
+        margin-left: 0;
+
+    }
+
+    .contact_element {
+        margin-bottom: 20px;
+    }
+
+
+
+    .txt_scroll_right {
+        display: none;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 765px){
+
+    
+
+
+    .about_content_top {
+        padding-right: 0;
+
+    }
+
+ 
+    
+
+
+
+
+    .slide1_big_title {
+        font-size: 30px;
+    
+    }
+    .slide1_big_title::before, .slide1_big_title::after {
+        font-size: 18px;
+
+    }
+
+
+    .container_txt_img_slide1 {
+        display: flex;
+
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+    }
+
+    .container_txt_img_slide1::before, .container_txt_img_slide1::after {
+        font-size: 18px;
+    }
+
+
+
+    .txt_slide1 {
+        margin-right: 0;
+    }
+    
+     
+    
+    .img_slide1 {
+
+        margin-top: 25px;
+        width: 50%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .slide_title {
+        font-size: 24px;
+
+    }
+    .slide_title::before, .slide_title::after {
+    
+        font-size: 18px;
+  
+    }
+
+
+    .container_all_education {
+
+        flex-direction: column;
+      
+
+    }
+    
+    .container_all_education::before, .container_all_education::after {
+        font-size: 18px;
+    }
+
+    
+
+    
+    .container_education {
+        display: flex;
+        flex-direction: column;
+    
+        width: 100%;
+        min-width: unset;
+
+        margin-bottom: 10px;
+
+    }
+    
+    
+    .education_date {
+        font-size: 18px;
+        font-weight: bold;
+    
+        min-width: unset;
+
+    }
+  
+
+
+
+
+
+
+
+
+
+
+
+    .slide_sub_title {
+        font-size: 19px;
+    }
+
+    .container_skills_content::before, .container_skills_content::after {
+        font-size: 18px;
+
+    }
+
+
+    .container_bar {
+        width: 60%;
+        height: 6px;
+    
+        background-color: #BCBCBC;
+    }
+
+
+
+
+
+
+
+    .about_content_bottom {
+  
+        height: unset;
+        padding-right: 0;
+        
+    }
+
+    .about_contact {
+        flex-direction: column-reverse;
+    }
+
+    .contact_element {
+        font-size: 17px;
+        margin: 0;
+        margin-bottom: 15px;
+    }
+
+ 
+
+
+}
+
+
+@media screen and (max-width:565px) {
+    
+    .container_all_references {
+
+        width: 100%;
+
+    }
+
+    .container_reference {
+        display: flex;
+
+        width: 100%;
+
+        min-width: unset;
+
+    }
+}

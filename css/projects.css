@@ -1,0 +1,577 @@
+
+    /* ------------------------------- ASIDE ------------------------------- */
+
+.container_title_projects {
+    display: flex;
+
+    align-self: flex-start;
+
+    z-index: 10;
+
+    position: relative;
+
+    /* background-color: green; */
+}
+
+
+
+
+.projects_aside_title {
+    font-size: 90px;
+
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+
+    align-self: flex-start;
+
+
+    margin-bottom: -3px;
+
+
+}
+
+
+.projects_aside_title_nb {
+    font-size: 110px;
+
+    align-self: flex-end;
+
+    margin-bottom: -23px;
+    margin-left: -13px;
+
+    -webkit-text-stroke: 1px #ffffff;
+    color: transparent;
+
+    font-weight: normal;
+}
+
+
+
+.project_number_second {
+    position: relative;
+}
+
+
+
+    /* ------------------------------- FIN ASIDE ------------------------------- */
+
+
+
+
+    /* ------------------------------- CONTENT ------------------------------- */
+
+        /* ------------------------------- CONTENT TOP ------------------------------- */
+
+
+.slider_arrows_container {
+    font-size: 27px;
+
+    position: relative;
+}
+
+.arrow_slider {
+    margin: 0 10px;
+    margin-top: 15px;
+
+    position: relative;
+
+    cursor: pointer;
+}
+
+
+        /* ------------------------------- FIN CONTENT TOP ------------------------------- */
+
+
+
+
+
+
+        /* ------------------------------- CONTENT PROJECTS ------------------------------- */
+
+.projects_content {
+    width: 100%;
+    height: 100%;
+
+    margin-top: 30px;
+    padding-right: 30px;
+
+    position: relative;
+
+    /* background-color: salmon; */
+}
+
+
+
+
+            /* ------------------------------- CONTAINER ONE PROJECTS ------------------------------- */
+
+.container_one_project {
+    width: 100%;
+    height: 100%;
+
+    padding: 0 7vw;
+
+    display: none;
+
+    /* justify-content: space-between; */
+    flex-direction: column;
+
+    position: relative;
+
+}
+
+.container_one_project.slide_active {
+    display: flex;
+}
+
+.container_first_project {
+    /* background-color: orange; */
+}
+
+.container_second_project {
+    /* background-color: palegreen; */
+}
+
+.container_third_project {
+    /* background-color: peru ; */
+}
+
+                /* ------------------------------- CONTAINER ONE PROJECTS TOP ------------------------------- */
+
+
+
+.container_project_top {
+    /* width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-between; */
+
+    height: 60%;
+
+    display: flex;
+    justify-content: space-between;
+
+    position: relative;
+
+    /* background-color: aquamarine; */
+}
+
+
+                    /* ------------------------------- PROJECTS TOP ING  ------------------------------- */
+
+
+.container_img_project {
+    /* height: 100%; */
+
+    width: 30%;
+
+    display: flex;
+    align-items: center;
+
+    position: relative;
+
+    /* background-color: red; */
+
+}
+
+.img_project {
+ 
+    /* max-width: 100%;
+    height: 100%; */
+
+    width: 100%;
+
+    max-height: 100%;
+
+    display: block;
+}
+
+                    /* ------------------------------- FIN PROJECTS TOP ING  ------------------------------- */
+
+
+                    /* ------------------------------- PROJECTS TOP INFO  ------------------------------- */
+
+
+.container_top_info_project {
+
+    width: 65%;
+    padding-left: 6vw;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    /* background-color: #000; */
+
+    position: relative;
+
+
+}
+
+
+.top_info_title_project {
+    font-size: 50px;
+
+    margin-bottom: 40px;
+
+    line-height: 45px;
+
+}
+
+.top_info_subTitle_project {
+    font-size: 19px;
+}
+
+.top_info_type_project {
+    font-size: 19px;
+    font-weight: bold;
+
+    margin-bottom: 5px;
+}
+
+.top_info_txt_project {
+    margin-bottom: 50px;
+
+    text-align: justify;
+}
+
+
+.top_info_link_project {
+    align-self: flex-end;
+
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.top_info_link_project:hover {
+    text-decoration: underline;
+}
+
+
+
+                    /* ------------------------------- FIN PROJECTS TOP INFO  ------------------------------- */
+
+
+                /* ------------------------------- FIN CONTAINER ONE PROJECTS TOP ------------------------------- */
+
+
+
+
+
+                /* ------------------------------- CONTAINER ONE PROJECTS BOTTOM  ------------------------------- */
+
+.container_bottom_project {
+    /* width: 100%;
+    height: 50%; */
+
+    height: 40%;
+
+    display: flex;
+
+    /* background-color: gold; */
+}
+
+
+                    /* ------------------------------- PROJECTS BOTTOM INFO  ------------------------------- */
+
+.container_bottom_info_project {
+    width: 40%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    position: relative;
+
+    /* background-color: peru; */
+}
+
+.bottom_info_title_project {
+    font-size: 35px;
+
+    margin-bottom: 25px;
+}
+
+.bottom_info_txt_project {
+    text-align: justify;
+}
+
+                    /* ------------------------------- FIN PROJECTS BOTTOM INFO  ------------------------------- */
+
+
+
+
+
+                    /* ------------------------------- PROJECTS BOTTOM TECHNO  ------------------------------- */
+
+.container_bottom_techno_project {
+    width: 60%;
+
+    padding-left: 6vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    position: relative;
+
+    /* background-color: plum; */
+}
+
+                        /* ------------------------------- TECHNO  CONTENT ------------------------------- */
+
+
+.container_techno_content_project {
+    width: 100%;
+    /* height: 5px; */
+
+    max-width: 600px;
+
+    /* background-color: red; */
+}
+
+
+                            /* ------------------------------- TECHNO BARS ------------------------------- */
+
+
+.container_techno_all_bar_project {
+    display: flex;
+}
+
+.container_bar_project {
+    height: 5px;
+    border-radius: 18px;
+
+    margin-left: 6px;
+}
+
+.container_bar_project:first-child {
+    margin-left: 0;
+}
+
+
+
+.container_bar2_project {
+    width: 46%;
+    height: 5px;
+
+    border-radius: 18px;
+
+    margin-left: 7px;
+
+    /* background-color: darkorange; */
+}
+
+                            /* ------------------------------- FIN TECHNO BARS ------------------------------- */
+
+
+
+                            /* ------------------------------- TECHNO  NAMES ------------------------------- */
+
+.container_techno_all_name_project {
+    margin-top: 10px;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    /* background-color: deeppink ; */
+}
+
+.container_techno_name_project {
+    display: flex;
+    align-items: center;
+
+    margin-right: 25px;
+    margin-top: 10px;
+
+    /* background-color: yellowgreen; */
+}
+
+.circle_techno_project {
+    width: 8px;
+    height: 8px;
+
+    border-radius: 50%;
+
+    margin-right: 5px;
+
+}
+
+                            /* ------------------------------- FIN TECHNO  NAMES ------------------------------- */
+
+
+                        /* ------------------------------- FIN TECHNO  CONTENT ------------------------------- */
+
+
+                    /* ------------------------------- FIN  PROJECTS BOTTOM TECHNO  ------------------------------- */
+
+
+                /* ------------------------------- FIN CONTAINER ONE PROJECTS BOTTOM  ------------------------------- */
+
+
+            /* ------------------------------- FIN CONTAINER ONE PROJECTS ------------------------------- */
+
+
+        /* ------------------------------- FIN CONTENT PROJECTS ------------------------------- */
+
+
+
+
+
+
+
+    /* ------------------------------- FIN CONTENT ------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1250px) {
+
+
+    .container_one_project {
+        padding: 0;
+
+    }
+
+    .top_info_title_project {
+        font-size: 30px;
+
+        margin-bottom: 20px;
+    }
+
+    .top_info_txt_project {
+        margin-bottom: 50px;
+    }
+
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1065px) {
+    .projects_content {
+        padding-left: 80px;
+    }
+
+}
+
+
+@media screen and (max-width: 965px) {
+
+    .projects_content {
+        margin-bottom: 0;
+        overflow-x: scroll ;
+        
+    }
+
+
+    .container_project_top {
+        flex-direction: column-reverse;
+
+        height: unset;
+    }
+
+
+    .container_top_info_project {
+        width: 100%;
+        padding: 0 6vw;
+        margin-top: 40px;
+    }
+
+    .container_img_project {
+        width: 100%;
+
+        margin-top: 50px;
+
+        display: flex;
+        justify-content: center;
+
+        /* background-color: red; */
+    }
+
+    .container_img_project img {
+        width: 80%;
+        display: block;
+    }
+
+
+
+
+    .container_bottom_project {
+        flex-direction: column;
+    }
+
+    .container_bottom_info_project {
+        width: 100%;
+        padding: 0 6vw;
+
+        margin-top: 50px;
+
+    }
+
+    .container_bottom_techno_project {
+        width: 100%;
+        padding-left: 0;
+
+        margin-top: 50px;
+
+        padding-bottom: 50px;
+
+    }
+
+
+}
+
+
+@media screen and (max-width: 765px) {
+    .projects_content {
+        padding-left: 0;
+        padding-right: 0;
+
+        overflow-x: scroll ;
+    }
+
+
+    .container_top_info_project {
+        padding: 0;
+    }
+
+    .container_img_project img {
+        width: 100%;
+    }
+
+    
+    .top_info_title_project {
+
+        margin-bottom: 40px;
+    
+        line-height: 25px;
+    
+    }
+
+    .container_bottom_info_project {
+        padding: 0;
+    }
+
+
+    
+    .container_techno_content_project {
+        max-width: unset;
+
+    }
+
+    
+
+}
+
